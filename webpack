@@ -1,0 +1,11 @@
+# webpack学习
+
+- npm init 
+- 新建一个js文件 hello.js
+- webpack hello.js hello.bundle.js
+Hash: 19e711ac0e74e746b659
+Version: webpack 3.8.1
+Time: 53ms
+          Asset     Size  Chunks             Chunk Names
+hello.bundle.js  2.53 kB       0  [emitted]  main
+   [0] ./hello.js 60 bytes {0} [built]
