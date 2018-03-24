@@ -7,6 +7,23 @@
     <title>hello</title>
 </head>
 <body>
-    
+    <script>
+        function Person(name,age){
+            this.getName=function(){
+                return name;
+            }
+            this.setName=function(newName){
+                this.name=newName
+            }
+            this.getAge=function(){
+                return age;
+            }
+            this.setAge=function(newAge){
+                this.age=newAge
+            }
+        }
+        var p=new Person("牛总",27);
+        console.log(p)
+    </script>
 </body>
 </html>
